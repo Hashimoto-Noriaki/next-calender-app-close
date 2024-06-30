@@ -22,7 +22,7 @@ export const NotLoginLayout = ({ children }:PropsType) => {
         {children}
       </main>
     </div>
-  );
+    );
 }
 
 export default NotLoginLayout;
