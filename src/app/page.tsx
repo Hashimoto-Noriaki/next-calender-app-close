@@ -3,7 +3,7 @@ import React from 'react';
 const Home: React.FC = () => {
   return(
     <div className="relative">
-      <header className="line-height:50px; fixed top-0 left-0 right-0">
+      <header className="bg-white line-height:50px; fixed top-0 left-0 right-0">
         <div className="container mx-auto flex justify-between">
           <p className="logo">スケジュール管理APP</p>
           <nav>
