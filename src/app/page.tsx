@@ -14,6 +14,19 @@ const Home: React.FC = () => {
           </nav>
         </div>
       </header>
+      <main>
+        <div>
+          <h1>スケジュール管理</h1>
+          <p>
+            お互いのスケジュールを管理するアプリです。
+          </p>
+          <div>
+            <button>
+              ログイン
+            </button>
+          </div>
+        </div>
+      </main>
     </div>
   );
 };
