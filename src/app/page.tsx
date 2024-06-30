@@ -14,14 +14,14 @@ const Home: React.FC = () => {
           </nav>
         </div>
       </header>
-      <main className="pt-[50px]">
-        <div>
-          <h1>スケジュール管理</h1>
-          <p>
+      <main className="pt-[50px] bg-gradient-to-r from-lime-100 to-lime-200 h-screen flex flex-col justify-center items-center">
+        <div className="text-center">
+          <h1 className="text-7xl logo">スケジュール管理</h1>
+          <p className="pt-[10vh] text-5xl">
             お互いのスケジュールを管理するアプリです。
           </p>
-          <div>
-            <button>
+          <div className="pt-[20vh]">
+            <button className="bg-lime-800 text-white p-4 text-lg rounded-lg">
               ログイン
             </button>
           </div>
