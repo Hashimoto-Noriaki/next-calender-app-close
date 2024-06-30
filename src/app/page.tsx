@@ -14,7 +14,7 @@ const Home: React.FC = () => {
           </nav>
         </div>
       </header>
-      <main>
+      <main className="pt-[50px]">
         <div>
           <h1>スケジュール管理</h1>
           <p>
