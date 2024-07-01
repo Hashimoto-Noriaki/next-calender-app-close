@@ -1,13 +1,16 @@
+"use client"
+
 import { ReactNode } from 'react'
 
 type PropsType = {
+    onClick: () => void
     children:ReactNode
 } 
 
-export const PrimaryBtn = ({ children }: PropsType) => {
+export const PrimaryBtn = ({ onClick,children }: PropsType) => {
   return (
-    <button className="bg-lime-800 text-white p-4 text-lg rounded-lg">
-        { children }
+    <button className="bg-lime-800 text-white p-4 text-lg rounded-lg" onClick={onClick}>
+      { children }
     </button>
   )
 }

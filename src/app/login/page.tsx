@@ -1,3 +1,5 @@
+"use client"
+
 import { Input } from "../../components//atoms/Input";
 import { PrimaryBtn } from "../../components/atoms/PrimaryBtn";
 
@@ -20,7 +22,7 @@ export const Login = () => {
             placeholder="password"
           />
         </div>
-        <PrimaryBtn>ログイン</PrimaryBtn>
+        <PrimaryBtn onClick={() => null}>ログイン</PrimaryBtn>
       </form>
     </div>
   );
